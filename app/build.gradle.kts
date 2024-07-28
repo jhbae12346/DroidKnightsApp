@@ -35,10 +35,11 @@ android {
 
 dependencies {
     implementation(projects.core.navigation)
+    implementation(projects.core.data)
+    implementation(projects.core.designsystem)
+
     implementation(projects.feature.main)
     implementation(projects.feature.home)
-
-    implementation(projects.core.designsystem)
 
     implementation(projects.widget)
 
